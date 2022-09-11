@@ -1,11 +1,11 @@
 #include <stdio.h> 
  #include <stdlib.h> 
- #include <time.h> 
+  
   
  /** 
-  * main - Entry point 
-  * 
-  * Return: Always 0 (Success) 
+  * main- Write a program that prints all possible 
+  * combinations of single-digit numbers 
+  * Return: 0 (success) 
   */ 
   
  int main(void) 
@@ -22,6 +22,5 @@
                  } 
          } 
          putchar('\n'); 
-  
          return (0); 
  }
