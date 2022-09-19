@@ -4,15 +4,15 @@
 
 /**
 *print_rev - Prints a string in reverse order
-*@s: String to reverse
+*@k: String to reverse
 *Return: Nothing
 */
 
-void print_rev(char *s)
+void print_rev(char *k)
 {
-	int len = strlen(s);
+	int len = strlen(k);
 
 	while (len--)
-		putchar(*(s + len));
+		putchar(*(k + len));
 	putchar(10);
 }
