@@ -1,12 +1,7 @@
+#include <stdio.h>
+int main(void)
 
-#include <stdio.h>                                                                                                                    
-
-                                                                                                                                     
-
-int main(void)                                                                                                                        
-
-{                                                                                                                                    
-
+{                                             
         int n;                                                                                                                        
 
         int a[5];                                                                                                                    
@@ -19,8 +14,7 @@ int main(void)
 
         p = &n;                                                                                                                      
 
-/*                                                                                                                                    
-
+/**                                              
  * write your line of code here...                                                                                                    
 
  * Remember:                                                                                                                          
