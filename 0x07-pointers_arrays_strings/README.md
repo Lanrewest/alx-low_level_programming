@@ -1,1 +1,1 @@
-Even more pointers, arrays and strings
+even more pointers and arrays to be solved in coding martial art.
