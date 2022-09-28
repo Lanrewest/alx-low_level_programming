@@ -1,21 +1,22 @@
-#include "main.h" 
-  
- /** 
-  * _memcpy - like memset but a function that copies memory area 
-  * @dest: destination for our memory 
-  * @src: source to copy from 
-  * @n: number of characters to copy 
- * Return: pointer back to dest 
-  */ 
-  
- char *_memcpy(char *dest, char *src, unsigned int n) 
- { 
- int night = 0; /*same code as memset*/ 
- while (n > 0) 
- { 
- dest[night] = src[night]; 
- night++; 
- n--; 
- } 
- return (dest); 
- }
+#include "main.h"
+
+/**
+ * _memcpy - copies a memory area
+ * @dest: memory area to be copied to
+ * @src: memory area to be copied from
+ * @n: number of bytes to be copied
+ *
+ * Return: pointer to the copied memory block
+ */
+
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	unsigned int i = 0;
+
+	for (; i < n; i++)
+	{
+		dest[i] = src[i];
+	}
+
+	return (dest);
+}
