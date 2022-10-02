@@ -5,8 +5,7 @@
                                                                                                                                      
 /**                                                                                                                                  
  * check_num - check - string there are digit                                                                                        
- * @str: array str                                                                                                                   
- *                                                                                                                                   
+ * @str: array str                                                                                                                                                                                               
  * Return: Always 0 (Success)                                                                                                        
  */                                                                                                                                  
                                                                                                                                      
