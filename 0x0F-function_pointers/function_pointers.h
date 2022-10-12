@@ -1,4 +1,4 @@
-#ifindef FUNCTION_POINTERS_H
+#ifndef FUNCTION_POINTERS_H
 #define FUNCTION_POINTERs_H
 
 void _putchar(char *c);
