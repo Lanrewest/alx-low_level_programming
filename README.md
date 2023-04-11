@@ -1,1 +1,2 @@
-even more pointers and arrays to be solved in coding martial art
+0x1E. C - Search Algorithms
+Yahaya Abdulwasiu
